@@ -1,15 +1,17 @@
 .monster{
     background: url("../img/monster.png") no-repeat;
     background-size:contain;
-    width:600px;
-    height:600px;
+    width:430px;
+    height:430px;
+    padding: 10px;
 }
 
 .blue-monster{
     background: url("../img/monster2.png") no-repeat !important;
-    background-size: cover;
-    width:600px;
-    height:600px;
+    background-size: contain !important;
+    width:430px;
+    height:430px;
+    padding: 10px;
 }
 body{
     //background-image:url('http://img3.goodfon.su/original/1680x1050/d/e1/dota-2-bounty-hunter-mogul.jpg');

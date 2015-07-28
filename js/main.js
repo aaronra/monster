@@ -2,9 +2,9 @@ var clicks = 0;
 function clickME() {
     clicks += 1;
     
-    //document.getElementById("clicks").innerHTML = clicks;
+    document.getElementById("score").innerHTML = clicks;
     $(".monster").toggleClass('blue-monster');
-    if (clicks >= 60){
+    if (clicks > 60){
         
         alert('\
             **************************************\n\n\
@@ -13,7 +13,7 @@ function clickME() {
             **************************************');
         window.location.replace('win.html');
         clicks = 0;
-    //document.getElementById("clicks").innerHTML = clicks;
+    document.getElementById("score").innerHTML = clicks;
         
     }
 }

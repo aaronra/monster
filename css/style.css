@@ -1,0 +1,75 @@
+*,html,body{margin:0;padding:0;font-family: 'Open Sans', sans-serif;}
+body{overflow-x:hidden;}
+.header{
+ position: relative;
+  z-index: 9998;
+  min-width: 1010px;
+  height: 68px;
+  margin: 0 auto 1em;
+  background: #444;
+  background: rgba(0,0,0,.6);
+  font-size: 18px;
+  padding-top: 19px;
+}
+a {text-decoration:none;color:#fff;}
+.container{width:90%;margin:auto;}
+.header .logo{
+width: 45px;
+  height: 48px;
+  background-repeat: no-repeat;
+  background-position: 0px 1px;
+  background-image: url("http://store.storeimages.cdn-apple.com/8446/as-images.apple.com/is/image/AppleInc/aos/published/images/a/pp/apple/music/apple-music-title-201506?wid=192&hei=44&fmt=png-alpha&qlt=95&.v=1436885298900");
+  margin: 0 0 10px;
+  float: left;
+}
+.q1, .q2, .q3, .q0, .q01, .q02{margin-top:50px;}
+input[type="radio"]{display:none;}
+img.main{display:block;margin:auto;width:100%;}
+.header h2{  float: left;
+  display: block;
+  line-height: 3px;
+  margin: 24px 19px; color:#fff;}
+.right{display:block;float:right;margin:12px 0;}
+  .center{text-align:center;}
+.btn:hover, label:hover, .btn.disable {background:#999;}
+.btn, label{background-color: #1d9bd9;
+  background: -webkit-linear-gradient(#3baee7,#08c);
+  background: linear-gradient(#3baee7,#08c);
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  white-space: nowrap;
+  padding: 0 16px;
+  display: inline-block; margin:20px auto;}  
+ .container.center{min-height:1000px;}
+ 
+ .footer{background: #333;
+  font-size: 9px;
+  bottom: 0;
+float:left;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 6px 0;}
+ .cont-white{float: left;
+ width:100%;
+  height:200px;
+  margin:5px auto;
+  border: 1px solid rgba(68, 68, 68, 0.2);
+  border-radius: 10px;cursor:pointer;}
+  .cont-white:hover{border:1px solid #000;}
+ .price{width:100px;display:block;float:left;}
+ table{text-align:left;}
+ table td{text-align:left;} table td p {font-size: 12px;}
+@media (min-width: 1200px){
+.container {width: 1170px;}
+img.main {max-width:1000px;}
+.cont-white{ width: 32%;margin: 35px 5px;height: 239px;}
+} 
+
+.blue{color:blue;font-weight:bold;font-size:15px;}
+.red{color:red;font-weight:bold;font-size:15px;}

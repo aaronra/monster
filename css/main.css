@@ -1,0 +1,13 @@
+.monster{
+    background: url("../img/monster.png") no-repeat;
+    background-size:contain;
+    width:200px;
+    height:200px;
+}
+
+.blue-monster{
+    background: url("../img/monster2.png") no-repeat !important;
+    background-size:contain;
+    width:200px;
+    height:200px;
+}

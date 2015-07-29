@@ -4,6 +4,7 @@
     width:430px;
     height:430px;
     padding: 10px;
+    
 }
 
 .blue-monster{
@@ -14,6 +15,22 @@
     padding: 10px;
 }
 body{
-    //background-image:url('http://img3.goodfon.su/original/1680x1050/d/e1/dota-2-bounty-hunter-mogul.jpg');
+    //background-color: black;
+  background:url('http://pre14.deviantart.net/3491/th/pre/f/2014/328/0/1/land_of_ogres__forest__4_by_iennidesign-d87i8hg.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
+
+.header{
+  padding: 34px 0;
+  text-align: center;
+  background: #333;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  opacity: 0.8;
+  text-shadow: 1px 1px 1px #000;
+}
